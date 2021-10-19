@@ -87,5 +87,8 @@ body{
     font-family: "Montserrat";
     text-align:center;
     border: 2px solid #ffffff;
-    padding: 20px 40px;
+    padding-bottom: 18px;
+    padding-left: 36px;
+    padding-right: 34px;
+    padding-top: 20px;
 }
