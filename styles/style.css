@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 
 body{
     max-width: 1600px;
@@ -92,3 +92,43 @@ body{
     padding-right: 34px;
     padding-top: 20px;
 }
+.main{
+    width: 100%;
+}
+.main-inner{
+    width: 1125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.services{
+    display: flex;
+    justify-content: center;
+    color: black;
+    flex-direction: column;
+    margin-top: 83px;
+    font-size: 20px;
+    line-height: 24px;
+    color: #555555;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+}
+.shape{
+    width: 50px;
+    height: 2px;
+    background-color: #555555;
+    margin-top: 28px;
+    margin-left: 212px;
+
+}
+.service-text{
+    font-size: 16px;
+    line-height: 24px;
+    color: #555555;
+    font-weight: 400;
+    font-family: "Roboto Slab";
+    text-align: center;
+    margin-top: 28px;
+}
+
