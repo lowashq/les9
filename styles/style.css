@@ -100,6 +100,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    height: 379px;
 }
 .services{
     display: flex;
@@ -119,7 +121,8 @@ body{
     height: 2px;
     background-color: #555555;
     margin-top: 28px;
-    margin-left: 212px;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 .service-text{
@@ -131,4 +134,65 @@ body{
     text-align: center;
     margin-top: 28px;
 }
-
+.single-services{
+    margin-top: 69px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.service{
+    width: 345px;
+    
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.icon1{
+    width: 91px;
+    height: 91px;
+    background: url('../icons/FA\ icon@1X.png');
+}
+.service-caption{
+    font-size: 14px;
+    line-height: 24px;
+    color: #555555;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+    margin-top: 29px;
+}
+.service-text{
+    width: 360px;
+    height: 63px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #555555;
+    font-weight: 400;
+    font-family: "Roboto Slab";
+    text-align: center;
+}
+.icon2{
+    width: 91px;
+    height: 91px;
+    background: url('../icons/FA\ icon@1X\ \(2\).png');
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.icon3{
+    background: url('../icons/FA\ icon@1X\ \(3\).png');
+    width: 91px;
+    height: 91px;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
