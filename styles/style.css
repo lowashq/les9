@@ -62,7 +62,7 @@ body{
     flex-direction: column;
 }
 .caption-title{
-    
+    text-transform: uppercase;
     font-size: 48px;
     line-height: 24px;
     color: #ffffff;
@@ -91,6 +91,16 @@ body{
     padding-left: 36px;
     padding-right: 34px;
     padding-top: 20px;
+    text-transform: uppercase;
+}
+a{
+    font-size: 16px;
+    line-height: 24px;
+    color:#ffffff;
+    font-weight: bold;
+    
+    font-family: "Montserrat-regular";
+    text-decoration: none;
 }
 .main{
     width: 100%;
@@ -114,9 +124,10 @@ body{
     font-size: 20px;
     line-height: 24px;
     color: #555555;
-    font-weight: 400;
+    font-weight: bold;
     font-family: "Montserrat";
     text-align: center;
+    text-transform: uppercase;
 }
 .shape{
     width: 50px;
@@ -127,7 +138,7 @@ body{
     margin-right: auto;
 
 }
-.service-text{
+.services-text{
     font-size: 16px;
     line-height: 24px;
     color: #555555;
@@ -155,16 +166,29 @@ body{
 .icon1{
     width: 91px;
     height: 91px;
-    background: url('../icons/FA\ icon@1X.png');
+    font-size:50px;
+    color:#BF2F1B;
+   
 }
+.icon1 i{
+    margin-left: 23px;
+    margin-top: 20px;
+}
+.icon1:hover{
+    color: white;
+    background-color: #bf2f1b;
+    border-radius: 100%;
+}
+
 .service-caption{
     font-size: 14px;
     line-height: 24px;
     color: #555555;
-    font-weight: 400;
-    font-family: "Montserrat";
+    font-weight:bolder;
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
     margin-top: 29px;
+    text-transform: uppercase;
 }
 .service-text{
     width: 360px;
@@ -206,7 +230,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #ff0000;
+    background-color: red;
     margin-top:91px;
     width: 100%;
     padding-top: 100px;
@@ -216,6 +240,25 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.twitter-hover{
+    color: #ff0000;
+    width: 34px;
+    height: 34px;
+    margin-right: 10px;
+    background-color: #fff;
+    border-radius: 100%;
+    font-size: 17px;
+    border:2px solid white ;
+}
+.twitter-hover i{
+    margin-top: 10px;
+    margin-left: 8px;
+}
+.twitter-hover:hover{
+    background-color: #ff0000;
+    color: #fff;
+    border: 2px solid white;
 }
 .twitter{
     width: 36px;
@@ -230,4 +273,5 @@ body{
     font-weight: 400;
     font-family: "Roboto Slab";
     margin-top: 61px;
+    text-transform: uppercase;
 }
